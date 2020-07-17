@@ -202,12 +202,12 @@
                 <div class="silex-element-content normal">
                     <h3>tél. : 09 54 41 90 29</h3>
                 </div>
-            </div><div data-silex-type="text-element" class="editable-style silex-id-1563375715832-24 text-element silex-component prevent-resizable hide-on-desktop hamburger-menu style-hamburger-menu" data-silex-id="silex-id-1563375715832-24" style=""><div class="silex-element-content normal"><style>.hamburger-menu_1594647216242_375 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1594647216242_375 nav {left: -9999px;}.hamburger-menu_1594647216242_375 nav ul {margin-top: 80px;}.hamburger-menu_1594647216242_375 nav {opacity: 0; position: absolute; background-color: #ededed; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1594647216242_375.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1594647216242_375 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1594647216242_375.open .nav-container {}.hamburger-menu_1594647216242_375 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1594647216242_375 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
+            </div><div data-silex-type="text-element" class="editable-style silex-id-1563375715832-24 text-element silex-component prevent-resizable hide-on-desktop hamburger-menu style-hamburger-menu" data-silex-id="silex-id-1563375715832-24" style=""><div class="silex-element-content normal"><style>.hamburger-menu_1594985549934_351 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1594985549934_351 nav {left: -9999px;}.hamburger-menu_1594985549934_351 nav ul {margin-top: 80px;}.hamburger-menu_1594985549934_351 nav {opacity: 0; position: absolute; background-color: #ededed; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1594985549934_351.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1594985549934_351 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1594985549934_351.open .nav-container {}.hamburger-menu_1594985549934_351 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1594985549934_351 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
       opacity 0.1s ease-in,
       transform 0.1s ease-in,
-      background 0.1s ease-in;}.hamburger-menu_1594647216242_375.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1594647216242_375 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1594647216242_375.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1594647216242_375.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1594647216242_375 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1594647216242_375.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
+      background 0.1s ease-in;}.hamburger-menu_1594985549934_351.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1594985549934_351 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1594985549934_351.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1594985549934_351.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1594985549934_351 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1594985549934_351.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1594647216242_375 closed">
+<div class="hamburger-menu_1594985549934_351 closed">
     <div class="hamburger-btn ">
       <span></span>
       <span></span>
@@ -220,7 +220,7 @@
             
                 <li><a href="#!page-accueil">Accueil</a></li>
             
-                <li><a href="#!page-menus">Nos menus</a></li>
+                <li><a href="#!page-menus" class="page-link-active">Nos menus</a></li>
             
                 <li><a href="#!page-contact">Contact</a></li>
             
@@ -234,26 +234,26 @@
   var isOpen = false;
   function close() {
     isOpen = false;
-    $('.hamburger-menu_1594647216242_375').removeClass('open');
-    $('.hamburger-menu_1594647216242_375').addClass('closed');
+    $('.hamburger-menu_1594985549934_351').removeClass('open');
+    $('.hamburger-menu_1594985549934_351').addClass('closed');
   }
   function open() {
     isOpen = true;
-    $('.hamburger-menu_1594647216242_375').addClass('open');
-    $('.hamburger-menu_1594647216242_375').removeClass('closed');
+    $('.hamburger-menu_1594985549934_351').addClass('open');
+    $('.hamburger-menu_1594985549934_351').removeClass('closed');
   }
   function toggle() {
     if(isOpen) close();
     else open();
   }
-  var silexElement = $('.hamburger-menu_1594647216242_375').closest('.editable-style');
+  var silexElement = $('.hamburger-menu_1594985549934_351').closest('.editable-style');
   function move(data) {
     var offset = silexElement.offset();
-    $('.hamburger-menu_1594647216242_375 .nav-container').css({
+    $('.hamburger-menu_1594985549934_351 .nav-container').css({
       'transform': 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)'
     });
   }
-  $('.hamburger-menu_1594647216242_375 .hamburger-btn').click(function() { toggle(); });
+  $('.hamburger-menu_1594985549934_351 .hamburger-btn').click(function() { toggle(); });
   $(document).on('silex.scroll silex.resize', function(e) {
     close();
     move(window.silex);
@@ -272,13 +272,14 @@
         </div>
     
 
+
 <div data-silex-type="container-element" class="container-element editable-style silex-id-1474394621033-3 section-element prevent-resizable" data-silex-id="silex-id-1474394621033-3" style="">
         <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1474394621032-2 container-element website-width 00" data-silex-id="silex-id-1474394621032-2" style="">
-            <div data-silex-type="image-element" class="editable-style silex-id-1560980831167-6 image-element page-link-active" data-silex-id="silex-id-1560980831167-6" style="" data-silex-href="#!page-accueil"><img src="../../excellence-kebab/gh-pages/assets/images/excellence-kebab-logo.jpg" class="silex-element-content"></div>
+            <div data-silex-type="image-element" class="editable-style silex-id-1560980831167-6 image-element" data-silex-id="silex-id-1560980831167-6" style="" data-silex-href="#!page-accueil"><img src="../../excellence-kebab/gh-pages/assets/images/excellence-kebab-logo.jpg" class="silex-element-content"></div>
             <div data-silex-type="text-element" class="editable-style text-element silex-id-1560980315787-5 hide-on-mobile paged-element page-contact page-page page-accueil navigation style-nav" data-silex-id="silex-id-1560980315787-5" style="">
                 <div class="silex-element-content normal">
                         <ul>
-                            <li><a href="#!page-accueil" title="Accueil" class="page-link-active">Accueil</a></li>&nbsp;<li><a href="#!page-menus" title="menus" class="">Nos menus</a></li>&nbsp;<a href="#!page-contact" title="contact" class="">contact &nbsp; &nbsp;</a></ul>
+                            <li><a href="#!page-accueil" title="Accueil" class="">Accueil</a></li>&nbsp;<li><a href="#!page-menus" title="menus" class="page-link-active">Nos menus</a></li>&nbsp;<a href="#!page-contact" title="contact" class="">contact &nbsp; &nbsp;</a></ul>
                 </div>
             ﻿﻿﻿</div>
         <div data-silex-type="text-element" class="editable-style text-element hide-on-mobile silex-id-1563195589129-0 page-menus paged-element navigation anchor-link style-sous-nav" data-silex-id="silex-id-1563195589129-0" style="">
@@ -289,7 +290,7 @@
                     <p>
                         </p><ul><a href="#">
 
-</a><li><a href="#"></a><a title="Accueil" href="#!page-accueil" class="page-link-active">Accueil</a></li>&nbsp;<li><a href="#!page-menus" title="Menus" class="">Nos menus</a></li>&nbsp;<a href="#!page-contact" title="contact" class="">contact &nbsp; &nbsp;</a></ul>
+</a><li><a href="#"></a><a title="Accueil" href="#!page-accueil" class="">Accueil</a></li>&nbsp;<li><a href="#!page-menus" title="Menus" class="page-link-active">Nos menus</a></li>&nbsp;<a href="#!page-contact" title="contact" class="">contact &nbsp; &nbsp;</a></ul>
                     <p></p>
                 </div>
             ﻿﻿﻿</div></div>
@@ -385,21 +386,21 @@
 
 
         </div>
-    </div><div data-silex-type="container-element" class="prevent-resizable container-element editable-style silex-id-1563270597161-42 section-element page-contact paged-element" data-silex-id="silex-id-1563270597161-42" style=""><div data-silex-type="container-element" class="editable-style silex-id-1563270597023-41 container-element silex-element-content website-width" data-silex-id="silex-id-1563270597023-41"><div data-silex-type="text-element" class="editable-style silex-id-1563270650498-43 text-element style-titres" data-silex-id="silex-id-1563270650498-43" style=""><div class="silex-element-content normal"><h3>Nous contacter</h3></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1563270698041-44 style-cadre-contact" data-silex-id="silex-id-1563270698041-44" style=""><div class="silex-element-content normal"><h3>Excellence Kebab</h3><p>1 avenue de l'Europe<br>54280 SEICHAMPS</p></div></div><div data-silex-type="container-element" class="editable-style silex-id-1563791235781-4 container-element hide-on-desktop" data-silex-id="silex-id-1563791235781-4" style=""></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1563271174392-47 style-btn" data-silex-id="silex-id-1563271174392-47" style=""><div class="silex-element-content normal"><b>tél. : 09 54 41 90 29</b></div></div><div data-silex-type="container-element" class="editable-style container-element hide-on-desktop silex-id-1563791307779-5" data-silex-id="silex-id-1563791307779-5" style=""></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1594398687681-6 silex-component-map silex-use-height-not-minheight silex-element-content-full-height" data-silex-id="silex-id-1594398687681-6" style=""><div class="silex-element-content"><div id="mapdiv_1594647220770_266" class="map"><div class="ol-viewport" data-view="3" style="position: relative; overflow: hidden; width: 100%; height: 100%; touch-action: none;"><canvas class="ol-unselectable" style="width: 100%; height: 100%; display: none;"></canvas><div class="ol-overlaycontainer"></div><div class="ol-overlaycontainer-stopevent"><div class="ol-zoom ol-unselectable ol-control"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-collapsed" style="display: none;"><ul><li style="display: none;"></li></ul><button type="button" title="Attributions"><span>i</span></button></div></div></div></div>
-<style>#mapdiv_1594647220770_266 {width: 100%; height: 100%;}</style>
+    </div><div data-silex-type="container-element" class="prevent-resizable container-element editable-style silex-id-1563270597161-42 section-element page-contact paged-element" data-silex-id="silex-id-1563270597161-42" style=""><div data-silex-type="container-element" class="editable-style silex-id-1563270597023-41 container-element silex-element-content website-width" data-silex-id="silex-id-1563270597023-41"><div data-silex-type="text-element" class="editable-style silex-id-1563270650498-43 text-element style-titres" data-silex-id="silex-id-1563270650498-43" style=""><div class="silex-element-content normal"><h3>Nous contacter</h3></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1563270698041-44 style-cadre-contact" data-silex-id="silex-id-1563270698041-44" style=""><div class="silex-element-content normal"><h3>Excellence Kebab</h3><p>1 avenue de l'Europe<br>54280 SEICHAMPS</p></div></div><div data-silex-type="container-element" class="editable-style silex-id-1563791235781-4 container-element hide-on-desktop" data-silex-id="silex-id-1563791235781-4" style=""></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1563271174392-47 style-btn" data-silex-id="silex-id-1563271174392-47" style=""><div class="silex-element-content normal"><b>tél. : 09 54 41 90 29</b></div></div><div data-silex-type="container-element" class="editable-style container-element hide-on-desktop silex-id-1563791307779-5" data-silex-id="silex-id-1563791307779-5" style=""></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1594398687681-6 silex-component-map silex-use-height-not-minheight silex-element-content-full-height" data-silex-id="silex-id-1594398687681-6" style=""><div class="silex-element-content"><div id="mapdiv_1594985549925_70" class="map"><div class="ol-viewport" data-view="3" style="position: relative; overflow: hidden; width: 100%; height: 100%; touch-action: none;"><canvas class="ol-unselectable" style="width: 100%; height: 100%; display: none;"></canvas><div class="ol-overlaycontainer"></div><div class="ol-overlaycontainer-stopevent"><div class="ol-zoom ol-unselectable ol-control"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-collapsed" style="display: none;"><ul><li style="display: none;"></li></ul><button type="button" title="Attributions"><span>i</span></button></div></div></div></div>
+<style>#mapdiv_1594985549925_70 {width: 100%; height: 100%;}</style>
 <script>
 
 
-function init_1594647220770_266() {
+function init_1594985549925_70() {
     if(typeof(ol) === 'undefined') {
         // console.warn('Map not ready, restart later')
         // wait for dependencies to be loaded
-        setTimeout(init_1594647220770_266, 1000);
+        setTimeout(init_1594985549925_70, 1000);
         return;
     }
 
     // empty the div before adding the map again
-    $('#mapdiv_1594647220770_266').empty();
+    $('#mapdiv_1594985549925_70').empty();
 
     // apply position and zoom
     // from map URL http://www.openstreetmap.org/#map=18/48.88680/2.34235&layers=C
@@ -417,7 +418,7 @@ function init_1594647220770_266() {
               source: new ol.source.OSM()
             })
           ],
-          target: 'mapdiv_1594647220770_266',
+          target: 'mapdiv_1594985549925_70',
           view: new ol.View({
             center: center,
             zoom: zoom
@@ -447,10 +448,10 @@ function init_1594647220770_266() {
         
     }
 }
-init_1594647220770_266();
+init_1594985549925_70();
 // $(document).on('silex.resize', function() {
-//     $('#mapdiv_1594647220770_266').empty();
-//     init_1594647220770_266();
+//     $('#mapdiv_1594985549925_70').empty();
+//     init_1594985549925_70();
 // });
 
 </script>
@@ -1101,12 +1102,12 @@ Salade
     <div data-silex-type="container-element" class="editable-style silex-element-content container-element website-width silex-id-1563374222885-18" data-silex-id="silex-id-1563374222885-18" style="">
 
 
-        </div></div><div data-silex-type="container-element" class="editable-style section-element silex-id-1593519753386-3 paged-element page-menus" data-silex-id="silex-id-1593519753386-3" title=""><div data-silex-type="container-element" class="editable-style container-element silex-id-1593519753386-4 website-width" data-silex-id="silex-id-1593519753386-4" title=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1593519753387-5 style-bandeau-text-au-choix" data-silex-id="silex-id-1593519753387-5" title="" style=""><div class="silex-element-content normal">
+        </div></div><div data-silex-type="container-element" class="editable-style section-element silex-id-1593519753386-3 page-menus paged-element" data-silex-id="silex-id-1593519753386-3" title="" style=""><div data-silex-type="container-element" class="editable-style container-element silex-id-1593519753386-4 website-width" data-silex-id="silex-id-1593519753386-4" title="" style="width: 1400px; min-height: 375px;"><div data-silex-type="text-element" class="editable-style text-element silex-id-1593519753387-5 style-bandeau-text-au-choix" data-silex-id="silex-id-1593519753387-5" title="" style="top: 14px; left: 354px; width: 653px; min-height: 62px;"><div class="silex-element-content normal">
                     <h3><u>Les assiettes sont accompagnées</u></h3>
                     <h3><br></h3>
-                </div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1593519753387-6 style-bandeau-text-au-choix" data-silex-id="silex-id-1593519753387-6" title="" style=""><div class="silex-element-content normal"><p>Salades<br>Frites<br>Bulgur + 1 €<br>Végétarien 4€<br>Durum végétarien 5€<br>Belge 4€<br><br></p><p>
+                </div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1593519753387-6 style-bandeau-text-au-choix" data-silex-id="silex-id-1593519753387-6" title="" style="top: 74px; left: 260px; width: 441px; min-height: 284px;"><div class="silex-element-content normal"><p>Salades<br>Frites<br>Bulgur + 1 €<br>Végétarien 4€<br>Durum végétarien 5€<br>Belge 4€<br><br></p><p>
                     </p><p>
-                    </p><p><br></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1593519753387-7 style-bandeau-text-au-choix" data-silex-id="silex-id-1593519753387-7" title="" style=""><div class="silex-element-content normal">
+                    </p><p><br></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1593519753387-7 style-bandeau-text-au-choix" data-silex-id="silex-id-1593519753387-7" title="" style="top: 74px; left: 733px; width: 438px; min-height: 359px;"><div class="silex-element-content normal">
                     <h3>Nos crudités</h3>
                     <p>
                         Salade<br>Tomates<br>Oignons<br>Choux rouge /blanc<br>Concombre<br>Mais<br>Carottes<br></p>
@@ -1273,5 +1274,4 @@ Salade
                 </div>
             </div>
         </div>
-    </div>
-</body></html>
+    </div></body></html>
